@@ -1,13 +1,13 @@
 # vehicle-count-prediction
 ML project to predict vehicle count from timestamp features
 
-# 🚗 Final Vehicle Count Prediction using Machine Learning
+# Final Vehicle Count Prediction using Machine Learning
 
 This project uses timestamp features to **predict the number of vehicles** passing a traffic sensor. It demonstrates a complete machine learning pipeline including data preprocessing, feature extraction, model training, evaluation, and visualization.
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 | File Name                          | Description                                  |
 |-----------------------------------|----------------------------------------------|
@@ -16,7 +16,7 @@ This project uses timestamp features to **predict the number of vehicles** passi
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Predict the number of vehicles on the road based on **DateTime-derived features** like:
 - Hour of the day
@@ -29,14 +29,14 @@ Predict the number of vehicles on the road based on **DateTime-derived features*
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Scikit-learn (Random Forest, Linear Regression, Metrics)
 - Jupyter Notebook
 
 ---
 
-## 🔧 Steps Performed
+## Steps Performed
 1. **Data Cleaning & Feature Engineering**
 2. **Datetime Feature Extraction**
 3. **Exploratory Data Analysis (EDA)**
@@ -50,7 +50,7 @@ Predict the number of vehicles on the road based on **DateTime-derived features*
 
 ---
 
-## 📈 Sample Prediction
+## Sample Prediction
 
 ```python
 Input: [hour=11, weekday=6, day=1, month=11, year=2015, dayofyear=305, weekofyear=44]
